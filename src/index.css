@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Lato;
+  background-color: #fff;
+}
+
+.grid-container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #ccc;
+}
+
+.jumbotron-container {
+  background-color: #eee;
+}
+.container .jumbotron {
+  margin-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.jumbotron h1 {
+  font-size: 36px;
+}
+
+.navbar-default .navbar-brand {
+  color: #fff;
+}
+.navbar-default .navbar-brand {
+  padding: 15px;
+}
+.navbar-default .navbar-brand .logo {
+  position: fixed;
+  top: 0;
+  height: 50px;
+}
+.navbar-default .navbar-brand .title {
+  padding-left: 50px;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #fff;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: darkgreen;
+  background-color: #ccc;
+}
+
+.signup-btn {
+  background-color: #ffac33;
+  background-image: linear-gradient(#ffcc4d, #ffac33);
+  -ms-filter: 'progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffcc4d, endColorstr=#ffac33, GradientType=0)';
+  border-color: #f1a02a;
+  color: #292f33 !important;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}
