@@ -1,30 +1,30 @@
 import React from 'react';
-import { Grid, Row, Col, Button } from 'react-bootstrap';
+import { Grid, Row, Col } from 'react-bootstrap';
+
+const renderMembers = () => {
+  let arr = [];
+  for (let i = 1; i < 8; i++) {
+    arr.push(
+      <Col sm={4} xs={12} className="member">
+        <div className="member-container">
+          <div className="picture" />
+          <div className="information">
+            <div className="name">John Smith</div>
+            <div className="skills">HTML, CSS, Javascript</div>
+            <div className="links" />
+          </div>
+        </div>
+      </Col>
+    );
+  }
+  return arr;
+};
 
 const Members = () => {
   return (
     <Grid className="grid-container" id="members">
-      <Row className="grid-row">
-        <Col xs={12}>
-          <h1>MEMBERS</h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fringilla velit sed quam tincidunt, id tincidunt risus ultrices. Morbi vitae auctor nulla, at congue massa. Nam vel nibh
-            porttitor, molestie purus dapibus, euismod sapien. Nulla accumsan scelerisque magna. Donec sodales dolor a nisl tempor dignissim. Ut ornare eros nisl, at porta neque aliquam sed.
-            Pellentesque ultrices volutpat eros, in luctus diam. Proin vestibulum efficitur accumsan. Sed finibus ultrices consequat. Phasellus eget massa vitae velit iaculis aliquam. Ut ornare dui
-            tincidunt, sagittis neque a, consequat purus.
-          </p>
-          <p>
-            Donec faucibus quam id malesuada tristique. In tincidunt vehicula eros quis dignissim. Suspendisse molestie, lacus pharetra vestibulum dapibus, nulla libero bibendum nisl, eu hendrerit sem
-            nunc non massa. Donec viverra suscipit imperdiet. Quisque ut arcu nibh. Morbi ut tristique magna. Suspendisse pulvinar eleifend dignissim. Vestibulum cursus sed arcu et vestibulum. Nam
-            iaculis, nunc molestie laoreet tincidunt, est nisi placerat tellus, et cursus ipsum erat quis lacus.
-          </p>
-          <p>
-            <Button bsStyle="success" bsSize="large" href="http://react-bootstrap.github.io/components.html" target="_blank">
-              Join Us
-            </Button>
-          </p>
-        </Col>
-      </Row>
+      <h1>MEMBERS</h1>
+      <Row className="grid-row">{renderMembers()}</Row>
     </Grid>
   );
 };

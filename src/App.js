@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 
 import Navigation from './components/Navigation';
 import Welcome from './components/Welcome';
-import Join from './components/Join';
 import Members from './components/Members';
+import Projects from './components/Projects';
 
 class App extends Component {
   render() {
@@ -11,8 +11,8 @@ class App extends Component {
       <div>
         <Navigation />
         <Welcome />
-        <Join />
         <Members />
+        <Projects />
       </div>
     );
   }

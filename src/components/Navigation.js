@@ -17,11 +17,11 @@ const Navigation = () => {
         </Navbar.Header>
         <Navbar.Collapse>
           <Nav pullRight>
-            <NavItem eventKey={1} href="#join">
-              Join Us
+            <NavItem eventKey={1} href="https://www.facebook.com/groups/free.code.camp.redmond.wa/">
+              Facebook
             </NavItem>
-            <NavItem eventKey={2} href="#members">
-              Members
+            <NavItem eventKey={1} href="https://github.com/FCC-Redmond/website-client-react/blob/aa-1/README.md">
+              Github
             </NavItem>
           </Nav>
         </Navbar.Collapse>

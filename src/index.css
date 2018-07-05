@@ -7,23 +7,30 @@ body {
   background-color: #fff;
 }
 
+h1,
+.h1 {
+  margin-bottom: 20px;
+}
+
 .grid-container {
-  padding-top: 50px;
-  padding-bottom: 50px;
-  border-bottom: 1px solid #ccc;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: center;
 }
 
 .jumbotron-container {
   background-color: #eee;
+  padding-top: 50px;
 }
 .container .jumbotron {
   margin-bottom: 0;
   padding-left: 0;
   padding-right: 0;
+  text-align: center;
 }
 
 .jumbotron h1 {
-  font-size: 36px;
+  font-size: 32px;
 }
 
 .navbar-default .navbar-brand {
@@ -56,11 +63,28 @@ body {
   background-color: #ccc;
 }
 
-.signup-btn {
-  background-color: #ffac33;
-  background-image: linear-gradient(#ffcc4d, #ffac33);
-  -ms-filter: 'progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffcc4d, endColorstr=#ffac33, GradientType=0)';
-  border-color: #f1a02a;
-  color: #292f33 !important;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+#projects {
+  background-color: #eee;
+}
+
+.member-container,
+.project-container {
+  padding-bottom: 20px;
+}
+.member-container .picture,
+.project-container .picture {
+  height: 200px;
+  width: 100%;
+  max-width: 250px;
+  background-color: #dedede;
+  border: 1px solid #ddd;
+  margin: 0 auto;
+}
+.member-container .information,
+.project-container .information {
+  text-align: center;
+  background-color: #ccc;
+  padding: 7px;
+  max-width: 250px;
+  margin: 0 auto;
 }
