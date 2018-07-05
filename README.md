@@ -1,4 +1,4 @@
-# Free Code Camp Redmond - Website Client (React version)
+# FCC Redmond - Website Client (React version)
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
