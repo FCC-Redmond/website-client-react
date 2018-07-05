@@ -23,29 +23,6 @@ You can find the most recent version of this guide [here](https://github.com/fac
 
 ## Folder Structure
 
-```
-website-client-react/
-  README.md
-  node_modules/
-  package.json
-  LICENSE
-  public/
-    index.html
-    favicon.ico
-  src/
-    components/
-      Join.js
-      Members.js
-      Navigation.js
-      Welcome.js
-    App.js
-    App.test.js
-    glyph.jpg
-    index.css
-    index.js
-    registerServiceWorker.js
-```
-
 For the project to build, **these files must exist with exact filenames**:
 
 * `public/index.html` is the page template;
